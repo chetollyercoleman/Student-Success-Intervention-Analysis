@@ -69,7 +69,19 @@ Students with more than 10 absences had an average final grade of 10.65, compare
   My “Needs Support” label is based on the final grade. It describes an outcome after the fact and cannot function as an early-warning flag before that grade is known. Decisions made earlier in a school year would require information available at that time, such as earlier grades, attendance to date, and direct assessment of student needs. The dataset also lacks the context needed to determine why an individual student performed as they did or whether a particular intervention was effective. 
 
 ## Repository Structure
-  
+  # README.md
+    Project overview, analysis, findings, recommendations, limitations, and dashboard link
+  # data/student-por.csv
+    Original public Portuguese-language student performance dataset
+  # sql/student_success_analysis.sql
+    BigQuery SQL used for the data checks and analysis
+  # Student_Success_Dashboard_Image_1_and_2
+    Screenshot of the completed Tableau dashboard
+  # documentation/data_dictionary.md
+    Definitions of the dataset fields and fields created for this project
+  # Student_Performance_Data_Clean.csv
+    Cleaned Portuguese-language student performance dataset
+    
 ## Data Source and Attribution
   Source: Cortez, P. (2008). Student Performance [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T. The dataset is provided under CC BY 4.0. This project uses the Portuguese-language file, student-por.csv.
   
